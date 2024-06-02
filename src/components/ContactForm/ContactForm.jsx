@@ -23,22 +23,42 @@ export const ContactForm = () => {
     setOpen(true);
   };
 
+  // const submit = value => {
+  //   const formatTel = () => {
+  //     const number = value.number;
+  //     const phoneLength = number.length;
+
+  //     if (phoneLength < 7) {
+  //       return `(${number.slice(0, 3)}) ${number.slice(3)}`;
+  //     }
+
+  //     return `(${number.slice(0, 3)}) ${number.slice(3, 6)}-${number.slice(
+  //       6,
+  //       10
+  //     )}`;
+  //   };
+
+  const formatTel = number => {
+    const cleaned = number.replace(/\D/g, '');
+    const match = cleaned.match(/^(\d{1,4})(\d{1,3})?(\d{1,4})?(\d{1,4})?$/);
+
+    if (match) {
+      return [
+        match[1] ? `+${match[1]}` : '',
+        match[2] ? ` ${match[2]}` : '',
+        match[3] ? `-${match[3]}` : '',
+        match[4] ? `-${match[4]}` : '',
+      ].join('');
+    }
+
+    return number;
+  };
+
   const submit = value => {
-    const formatTel = () => {
-      const number = value.number;
-      const phoneLength = number.length;
-
-      if (phoneLength < 7) {
-        return `(${number.slice(0, 3)}) ${number.slice(3)}`;
-      }
-
-      return `(${number.slice(0, 3)}) ${number.slice(3, 6)}-${number.slice(
-        6,
-        10
-      )}`;
+    const newContact = {
+      name: value.name,
+      number: formatTel(value.number),
     };
-
-    const newContact = { name: value.name, number: formatTel() };
     const newContactName = newContact.name.toLowerCase();
 
     if (
