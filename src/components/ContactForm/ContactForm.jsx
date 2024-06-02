@@ -100,7 +100,7 @@ export const ContactForm = () => {
               className={css.inputForm}
               prefix={<UserAddOutlined className={css.userIcon} />}
               placeholder="Name"
-              pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+              pattern="^[a-zA-Zа-яА-Я]+((['\s\-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             />
           </Form.Item>
 
@@ -119,7 +119,7 @@ export const ContactForm = () => {
               prefix={<PhoneOutlined className={css.phoneIcon} />}
               type=""
               placeholder="Number"
-              pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
+              pattern="^\+((?:9[679]|8[035789]|6[789]|5[90]|42|3[578]|2[1-689])|9[0-58]|8[1246]|6[0-6]|5[1-8]|4[013-9]|3[0-469]|2[70]|7|1)(?:\W*\d){0,13}\d$"
             />
           </Form.Item>
 
