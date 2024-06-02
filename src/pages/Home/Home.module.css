@@ -1,0 +1,79 @@
+/* Home.module.css */
+
+.fadeAnimation {
+  animation: fadeInLeftBig 1s ease-in-out;
+}
+
+@keyframes fadeInLeftBig {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2e2d2dbc;
+}
+
+.wrap {
+  margin-bottom: 60px;
+  padding: 40px 0;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.underTitle {
+  color: #2e2d2dbc;
+  text-align: center;
+  font-size: 28px;
+  height: 40px;
+}
+
+.homeLink {
+  text-decoration: none;
+  margin: 0 6px;
+  color: white;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border: 1px solid #1677ff;
+  border-radius: 8px;
+  box-shadow: 0 2px 0 rgb(5 145 255 / 10%);
+  padding: 5px 8px;
+  background-color: #1677ff;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.homeLink:hover {
+  opacity: 0.8;
+}
+
+.section {
+  padding-top: 40px;
+  height: 40em;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(29, 190, 23, 0.5)
+    ),
+    url('../../img/tapeta-dziewczyna-z-laptopem-siedzaca-w-ksiazce.webp');
+  /* border-radius: 1.1em; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon svg {
+  padding: 80px 0px 180px;
+  color: #4a9e43;
+  width: 100px;
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+}

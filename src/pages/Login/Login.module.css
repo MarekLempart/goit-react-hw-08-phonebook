@@ -1,0 +1,58 @@
+/* Login.module.css */
+
+.formWrap {
+  width: 300px;
+}
+
+.logButton {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.userIcon {
+  color: #c7c6c6;
+}
+
+.passwordIcon {
+  color: #c7c6c6;
+}
+
+.inputForm {
+  height: 45px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.regLink {
+  font-size: 18px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.titleReg {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #2e2d2dbc;
+}
+
+.section {
+  padding-top: 40px;
+  height: 40em;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(23, 140, 190, 0.5)
+    ),
+    url('../../img/tapeta-filizanka-na-starych-ksiazkach-obok-bukietu-roz.webp');
+  /* border-radius: 1.1em; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

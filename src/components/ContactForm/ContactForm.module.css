@@ -1,0 +1,44 @@
+/* ContactForm.module.css */
+
+.formWrap {
+  margin: 0 auto;
+}
+
+.addModalBtn {
+  width: 100%;
+  height: 35px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userIcon {
+  color: #867f7f;
+}
+
+.phoneIcon {
+  color: #867f7f;
+}
+
+.inputForm {
+  height: 35px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.addModal {
+  text-align: center;
+}
+
+.addModal .ant-modal-content {
+  width: 340px;
+  height: 225px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.openAddModal {
+  margin: 15px 0;
+}

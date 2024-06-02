@@ -1,0 +1,83 @@
+/* Register.module.css */
+
+.container {
+  padding-top: 10%;
+  display: flex;
+  padding-left: 20%;
+}
+
+.formReg {
+  width: 500px;
+}
+
+.submitButton {
+  width: 100px;
+  height: 40px;
+  margin-left: 30%;
+  display: block;
+  font-size: 18px;
+}
+
+.inputReg {
+  height: 40px;
+  font-size: 18px;
+}
+
+.inputPassword {
+  height: 40px;
+  font-size: 18px;
+}
+
+.regMail {
+  color: #c7c6c6;
+}
+
+.regUser {
+  color: #c7c6c6;
+}
+
+.regPassword {
+  color: #c7c6c6;
+}
+
+.linkToLog {
+  font-size: 18px;
+  margin: 0 4px;
+}
+
+.contLabel {
+  font-size: 18px;
+  line-height: 1.11;
+  position: absolute;
+  top: -1%;
+  left: 50%;
+  margin-left: 60px;
+}
+
+.titleReg {
+  margin-left: 30%;
+  margin-bottom: 15px;
+  color: #2e2d2dbc;
+}
+
+.label {
+  label {
+    width: 150px;
+    padding-top: 8px;
+  }
+}
+
+.section {
+  padding-top: 40px;
+  height: 40em;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(190, 101, 23, 0.5)
+    ),
+    url('../../img/tapeta-karafka-i-szklanka-obok-ksiazek.webp');
+  /* border-radius: 1.1em; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

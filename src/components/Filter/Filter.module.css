@@ -1,0 +1,37 @@
+/* Filter.module.css */
+
+.wrapperFilter {
+  font-size: 20px;
+}
+
+.filterInputContainer {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 300px;
+  border: 2px solid #000000;
+  background-color: #92a1b0bc;
+  border-radius: 7px;
+  transition: box-shadow cubic-bezier(0.17, 0.67, 0.86, 0.57) 300ms;
+}
+
+.filterInput {
+  flex: 1;
+  padding: 0 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.filterP {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #2e2d2dbc;
+}
+
+.filterIcon {
+  margin-left: 8px;
+  margin-right: 10px;
+  color: #2e2d2d;
+}

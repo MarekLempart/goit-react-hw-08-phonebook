@@ -1,0 +1,85 @@
+/* ContactList.module.css */
+
+.container {
+  padding: 20px 0;
+}
+
+.title {
+  margin: 20px auto;
+  color: #2e2d2dbc;
+}
+
+.spinner {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.item {
+  background-color: #92a1b0bc;
+  padding-left: 10px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.divName {
+  min-width: 220px;
+}
+
+.userIconList {
+  margin-right: 8px;
+  color: #1677ff;
+}
+
+.phoneIconList {
+  margin: 0 8px;
+  color: #1677ff;
+}
+
+.buttonRedact {
+  margin-right: 8px;
+  margin-left: auto;
+}
+
+.modalRedact .ant-modal-content {
+  width: 330px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.inputForm {
+  height: 40px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.inputForm:nth-child(1) {
+  margin-bottom: 12px;
+}
+
+.section {
+  padding-top: 40px;
+  height: 40em;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(23, 90, 190, 0.5)
+    ),
+    url('../../img/tapeta-kot-obok-zapisanej-kartki-i-ksiazek.webp');
+  /* border-radius: 1.1em; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

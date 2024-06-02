@@ -1,0 +1,35 @@
+/* AppBar.module.css */
+
+.nav {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 25px 20px;
+}
+
+.link:nth-child(2n + 1) {
+  margin-right: 10px;
+}
+
+.activeLink {
+  color: #3a97e8;
+  border-top: 3px solid #3a97e8;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.container {
+  padding: 0 15px;
+  width: 1000px;
+}
