@@ -9,7 +9,7 @@ import { Button, Form, Input, Modal } from 'antd';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from '../../Redux/Contacts/operations';
-import styles from './ContactForm.module.css';
+import css from './ContactForm.module.css';
 
 export const ContactForm = () => {
   const [open, setOpen] = useState(false);
@@ -60,7 +60,7 @@ export const ContactForm = () => {
   return (
     <>
       <Button
-        className={styles.openAddModal}
+        className={css.openAddModal}
         type="primary"
         onClick={showModal}
         title="add new contact"
@@ -71,7 +71,7 @@ export const ContactForm = () => {
       </Button>
 
       <Modal
-        className={styles.addModal}
+        className={css.addModal}
         footer={null}
         title="Add new contact"
         open={open}
@@ -84,7 +84,7 @@ export const ContactForm = () => {
             remember: true,
           }}
           onFinish={submit}
-          className={styles.formWrap}
+          className={css.formWrap}
         >
           <Form.Item
             name="name"
@@ -97,8 +97,8 @@ export const ContactForm = () => {
             ]}
           >
             <Input
-              className={styles.inputForm}
-              prefix={<UserAddOutlined className={styles.userIcon} />}
+              className={css.inputForm}
+              prefix={<UserAddOutlined className={css.userIcon} />}
               placeholder="Name"
               pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             />
@@ -115,8 +115,8 @@ export const ContactForm = () => {
             ]}
           >
             <Input
-              className={styles.inputForm}
-              prefix={<PhoneOutlined className={styles.phoneIcon} />}
+              className={css.inputForm}
+              prefix={<PhoneOutlined className={css.phoneIcon} />}
               type=""
               placeholder="Number"
               pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
@@ -127,7 +127,7 @@ export const ContactForm = () => {
             <Button
               type="primary"
               htmlType="submit"
-              className={styles.addModalBtn}
+              className={css.addModalBtn}
             >
               Create contact
             </Button>

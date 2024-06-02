@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { refreshUser } from '../Redux/Authorization/operations';
-import styles from './Global.module.css';
+import css from './Global.module.css';
 import { Layout } from './Layout/Layout';
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
@@ -26,7 +26,7 @@ export const App = () => {
   const { isRefreshing } = useSelector(state => state.auth);
 
   return !isRefreshing ? (
-    <div className={styles.app}>
+    <div className={css.app}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
