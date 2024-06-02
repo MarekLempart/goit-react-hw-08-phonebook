@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook/static/css/main.58386904.css",
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.3408915f.css",
     "main.js": "/goit-react-hw-08-phonebook/static/js/main.c7c50dc3.js",
     "static/css/199.f7ca1206.chunk.css": "/goit-react-hw-08-phonebook/static/css/199.f7ca1206.chunk.css",
     "static/js/199.5c6dc625.chunk.js": "/goit-react-hw-08-phonebook/static/js/199.5c6dc625.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/tapeta-filizanka-na-starych-ksiazkach-obok-bukietu-roz.webp": "/goit-react-hw-08-phonebook/static/media/tapeta-filizanka-na-starych-ksiazkach-obok-bukietu-roz.a656c0e939f505ba8a80.webp",
     "static/media/tapeta-kot-obok-zapisanej-kartki-i-ksiazek.webp": "/goit-react-hw-08-phonebook/static/media/tapeta-kot-obok-zapisanej-kartki-i-ksiazek.6b2d9724304d85375e96.webp",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "main.58386904.css.map": "/goit-react-hw-08-phonebook/static/css/main.58386904.css.map",
+    "main.3408915f.css.map": "/goit-react-hw-08-phonebook/static/css/main.3408915f.css.map",
     "main.c7c50dc3.js.map": "/goit-react-hw-08-phonebook/static/js/main.c7c50dc3.js.map",
     "199.f7ca1206.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/199.f7ca1206.chunk.css.map",
     "199.5c6dc625.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/199.5c6dc625.chunk.js.map",
@@ -29,7 +29,7 @@
     "569.8aba133e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/569.8aba133e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58386904.css",
+    "static/css/main.3408915f.css",
     "static/js/main.c7c50dc3.js"
   ]
 }
